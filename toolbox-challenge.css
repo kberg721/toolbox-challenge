@@ -1,0 +1,85 @@
+/*
+	Kyle Bergman
+	Assignment: Javascript libraries
+	INFO 343 with Jacob Morris
+*/
+
+@import url(http://fonts.googleapis.com/css?family=Abel); 
+
+body {
+	background-color: #33CCFF;
+	font-family: 'Abel', 'Helvetica Neue', 'Helvetica', sans-serif;
+}
+
+.bold {
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.clickable {
+	cursor: alias;
+}
+
+#main {
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width: 100%;
+}
+
+#playArea {
+	display: inline-block;
+}
+
+#puzzlearea {
+	display: inline-block;
+	height: 600px;
+	position: relative;
+	width: 600px;
+}
+
+#winner {
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+#menu, #winner, #howTo {
+	background-color: rgba(230,230,230,.9);
+	border: 5px solid black;
+	display: inline-block;
+	margin-left: 50px;
+	padding: 10px;
+	position: relative;
+}
+
+.col-md-3 {
+	width: initial;
+}
+
+.tile {
+	border: 5px solid black;
+	height: 145px;
+	position: absolute;
+	width: 145px;
+}
+
+h1, h2 {
+	text-align: center;
+}
+
+ul {
+	list-style-type: none;
+}
+
+li {
+	display: flex;
+}
+
+.btn {
+	height: 30px;
+	width: 120px;
+	background-color: rgb(250,250,250);
+	margin-bottom: 10px;
+}
+
