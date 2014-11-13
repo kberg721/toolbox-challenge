@@ -4,8 +4,6 @@
 	Section D with Jacob Morris
 */
 
-'use strict';
-
 var started = false; //whether the game has started
 var turn = 0; //how many flips have occurred in a single turn
 var unsuccess = 0; //how many unsuccessful matches have been attempted
